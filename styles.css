@@ -1,0 +1,185 @@
+/* Reset + Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+body {
+  background-color: #E4EEF8; /* Your desired color */
+  padding: 0;
+  text-align: center;
+  color: #000000;
+  line-height: 1.6;
+}
+
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #FFFFFF;	
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  padding: 5px 0;
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #C1C59F, #C1C59F);
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #001642;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #001642;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 12px 30px;
+  background: #BEAE74;
+  color: #001642;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.services {
+  padding: 60px 0;
+}
+
+.services h2 {
+    background-color: #BEAE74;
+    border-radius: 10px;
+margin-left: 250px;
+margin-right: 250px;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #001642;
+}
+
+.service-list {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service {
+  background: #f0f4fa;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.03);
+}
+
+.service h3 {
+  color: #1a3a6e;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+  background: #eaeaea;
+  padding: 20px 0;
+  text-align: center;
+  color: #666;
+}
+
+.service-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+.services p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: left;
+}
+
+.service-list .service h3 {
+  font-size: 1.2rem;
+}
+
+.ai-ecosystem {
+  background-color: #f0f4fa;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.03);
+}
+
+.ai-ecosystem h3 {
+  color: #1a3a6e;
+  margin-bottom: 15px;
+}
+
+.ai-ecosystem ul {
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.ai-ecosystem ul li {
+  margin-bottom: 10px;
+}
+.auto {
+   /* soft blue background */
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #f9f9f9;
+}
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.service {
+  flex: 1 1 45%; /* Adjust width as needed */
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
