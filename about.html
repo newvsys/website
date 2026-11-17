@@ -3,52 +3,80 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NewVsys | About Us</title>
+  <title>About NewVsys Technologies | AI &amp; Software Company in Bangalore</title>
+  <meta name="description" content="NewVsys Technologies is a technology-driven company building intelligent software, AI-powered applications and digital products. Learn about our vision, mission, expertise and methodology." />
+  <link rel="canonical" href="https://www.newvsys.com/about.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="NewVsys Technologies" />
+  <meta property="og:title" content="About NewVsys Technologies" />
+  <meta property="og:description" content="A technology-driven company building intelligent software, AI-powered applications and digital products." />
+  <meta property="og:url" content="https://www.newvsys.com/about.html" />
+  <meta property="og:image" content="https://www.newvsys.com/logo.png" />
+  <meta name="theme-color" content="#950edb" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="navbar">
     <div class="container">
       <a class="brand" href="index.html" aria-label="NewVsys home">
         <img src="logo.png" alt="NewVsys" class="logo" />
       </a>
-      <nav aria-label="Main navigation">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" aria-current="page">About Us</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="industries.html">Industries</a></li>
+          <li><a href="portfolio.html">Our Portfolio</a></li>
           <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
         </ul>
+        <a class="btn nav-cta" href="contact.html" data-track="project_enquiry_click">Let’s Discuss Your Project <span aria-hidden="true">→</span></a>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section class="about about-page section-pad" id="about">
-      <div class="container about-layout">
-        <div class="about-title">
-          <p class="eyebrow"><span></span> Who we are</p>
-          <h1>Technology should open doors.</h1>
-          <p class="startup-tag">A next-generation software startup pioneering the future of intelligent software for businesses of all sizes.</p>
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow"><span></span> About us</p>
+        <h1>Technology should open doors.</h1>
+        <p class="about-intro" style="margin-top:22px">NewVsys Technologies is a technology-driven company focused on building intelligent software solutions, AI-powered applications and digital products. We combine engineering expertise, modern technologies and innovative thinking to help businesses solve complex challenges and accelerate digital transformation.</p>
+      </div>
+    </section>
+
+    <section class="section-pad section-white" id="vision-mission">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span> Vision &amp; mission</p>
+            <h2>Where we are headed, and how.</h2>
+          </div>
         </div>
-        <div class="about-copy">
-          <p class="about-lead">We’re a software team focused on making digital transformation useful, human, and achievable.</p>
-          <p>At NewVsys Technologies, we bring together expertise in AI, machine learning, automation, and agile product development to create solutions that help organizations do their best work.</p>
-          <p>From analytics platforms to intelligent automation, our goal is to help every client unlock more of their digital potential.</p>
+        <div class="card-grid cols-2">
+          <article class="card">
+            <h3>Our vision</h3>
+            <p>To be a trusted technology partner that helps organisations of every size become more intelligent, adaptive and future-ready.</p>
+          </article>
+          <article class="card">
+            <h3>Our mission</h3>
+            <p>To help clients unlock their full digital potential, from AI-powered analytics platforms to intelligent automation systems.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="pillars section-pad">
+    <section class="pillars section-pad section-tint" id="expertise">
       <div class="container">
         <div class="section-heading">
           <div>
-            <p class="eyebrow"><span></span> What we bring together</p>
+            <p class="eyebrow"><span></span> Technical expertise</p>
             <h2>Built on intelligence.<br>Delivered with agility.</h2>
           </div>
           <p class="section-intro">Four strengths sit at the core of everything we build for our clients.</p>
         </div>
-
         <div class="pillar-list">
           <article class="pillar pillar-1">
             <h3>Artificial intelligence</h3>
@@ -66,6 +94,10 @@
             <h3>Agile product development</h3>
             <p>From ideation to deployment, robust and scalable digital products.</p>
           </article>
+        </div>
+        <div class="tech-stack">
+          <p>Across our full stack</p>
+          <ul><li>Java</li><li>Spring Boot</li><li>Python</li><li>Hibernate</li><li>RDBMS</li><li>Kafka</li><li>Elasticsearch</li><li>React.js</li><li>Next.js</li></ul>
         </div>
       </div>
     </section>
@@ -86,25 +118,117 @@
       </div>
     </section>
 
-    <section class="mission section-pad">
-      <div class="container mission-layout">
-        <div>
-          <p class="eyebrow"><span></span> Our mission</p>
-          <h2>From AI-powered analytics platforms to intelligent automation systems.</h2>
-          <p class="mission-copy">Our mission is to help clients unlock their full digital potential.</p>
+    <section class="section-pad section-white" id="methodology">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span> Development methodology</p>
+            <h2>Discover. Design. Develop.<br>Deploy. Support.</h2>
+          </div>
+          <p class="section-intro">An iterative process that keeps projects transparent, predictable and aligned to business outcomes.</p>
         </div>
-        <div class="mission-actions">
-          <a href="services.html" class="btn">Explore our services <span aria-hidden="true">↗</span></a>
-          <a href="careers.html" class="text-link">Join our team <span aria-hidden="true">↗</span></a>
-          <a href="mailto:customercare@newvsys.com" class="text-link">customercare@newvsys.com <span aria-hidden="true">↗</span></a>
+        <ol class="steps">
+          <li><h3>Discover</h3><p>Understand your goals, users and constraints.</p></li>
+          <li><h3>Design</h3><p>Define architecture, user experience and roadmap.</p></li>
+          <li><h3>Develop</h3><p>Build iteratively with regular demos and feedback.</p></li>
+          <li><h3>Deploy</h3><p>Test, release and launch securely.</p></li>
+          <li><h3>Support</h3><p>Monitor, maintain and improve after go-live.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section-pad section-tint" id="team">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span> Leadership &amp; team</p>
+            <h2>The people behind NewVsys.</h2>
+          </div>
+        </div>
+        <!-- Add real leadership profiles and team photographs here, e.g. <article class="card"><h3>Name</h3><p>Role, background</p></article> inside a .card-grid. -->
+        <div class="team-note">
+          <p>Leadership profiles and team photographs will be published here. To meet the team or discuss your project, <a href="contact.html">get in touch</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad section-white" id="milestones">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span> Company milestones</p>
+            <h2>Where we are today.</h2>
+          </div>
+        </div>
+        <!-- Replace with dated milestones (founding year, product launches, team growth) once confirmed. -->
+        <div class="card-grid">
+          <article class="card"><h3>Products in development</h3><p>TryNat (e-commerce) and SkyFood (food delivery) are active products built by our teams.</p></article>
+          <article class="card"><h3>AI-first services</h3><p>AI, generative AI and automation sit at the centre of our service offering.</p></article>
+          <article class="card"><h3>Growing the team</h3><p>An active hiring and training programme for freshers and early-career professionals.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad section-tint" id="location">
+      <div class="container contact-page">
+        <div>
+          <p class="eyebrow"><span></span> Location &amp; contact</p>
+          <h2 class="group-title">Visit or contact us.</h2>
+          <p style="color:var(--muted)">We work with clients across India and beyond. Reach out and we will respond promptly.</p>
+          <p class="section-actions"><a class="btn" href="contact.html" data-track="project_enquiry_click">Let’s Discuss Your Project <span aria-hidden="true">→</span></a></p>
+        </div>
+        <div class="info-card">
+          <h2>NewVsys Technologies</h2>
+          <ul class="contact-lines">
+            <li>Bangalore, Karnataka 560100</li>
+            <li><a href="mailto:customercare@newvsys.com">customercare@newvsys.com</a></li>
+            <li><a href="tel:+919789321395">9789321395</a></li>
+            <li><a href="https://wa.me/919789321395" rel="noopener">WhatsApp</a></li>
+          </ul>
         </div>
       </div>
     </section>
   </main>
+
   <footer class="footer">
-    <div class="container footer-inner">
-      <p>Thoughtful technology. Built for what’s next.</p>
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">NewVsys Technologies</p>
+        <p>Thoughtful technology. Built for what’s next.</p>
+        <p>Bangalore, Karnataka 560100</p>
+      </div>
+      <div>
+        <h2>Services</h2>
+        <ul>
+          <li><a href="ai-solutions.html">AI &amp; Generative AI</a></li>
+          <li><a href="enterprise-software-development.html">Enterprise Software</a></li>
+          <li><a href="mobile-app-development.html">Mobile Apps</a></li>
+          <li><a href="ecommerce-development.html">E-Commerce</a></li>
+          <li><a href="data-engineering-analytics.html">Data &amp; Analytics</a></li>
+          <li><a href="it-consulting-staffing.html">IT Consulting &amp; Staffing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Company</h2>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="industries.html">Industries</a></li>
+          <li><a href="portfolio.html">Our Portfolio</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="mailto:customercare@newvsys.com">customercare@newvsys.com</a></li>
+          <li><a href="tel:+919789321395">9789321395</a></li>
+          <li><a href="https://wa.me/919789321395" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </div>
     </div>
+    <div class="container footer-bottom"><p>© 2026 NewVsys Technologies. All rights reserved.</p></div>
   </footer>
+  <script src="script.js" defer></script>
 </body>
 </html>
